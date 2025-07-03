@@ -6,63 +6,63 @@ const Blog: React.FC = () => {
   const posts = [
     {
       id: 1,
-      title: "The Power of Cultural Research in App Development",
-      excerpt: "How diving deep into cultural traditions transformed my approach to creating World of Games and taught me the importance of authentic representation in technology.",
-      date: "March 10, 2024",
-      readTime: "5 min read",
+      title: "Building Accessible Web Applications: A Developer's Guide",
+      excerpt: "How focusing on accessibility from the start transformed my approach to web development and taught me the importance of inclusive design in creating meaningful user experiences.",
+      date: "March 15, 2024",
+      readTime: "6 min read",
       category: "Development",
       image: "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Cultural Research", "App Development", "SwiftUI", "Inclusivity"]
+      tags: ["Accessibility", "Web Development", "React", "Inclusive Design"]
     },
     {
       id: 2,
-      title: "Leading a Tech Club as a High School Student",
-      excerpt: "Reflections on starting TriDev, the challenges of student leadership, and how to build a thriving technology community in your school.",
-      date: "February 25, 2024",
-      readTime: "4 min read",
+      title: "Leading Tech Communities: Lessons from Student Leadership",
+      excerpt: "Reflections on founding and leading technology clubs, the challenges of student leadership, and how to build thriving tech communities in educational settings.",
+      date: "February 28, 2024",
+      readTime: "5 min read",
       category: "Leadership",
       image: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Leadership", "Student Clubs", "Community Building", "Mentorship"]
+      tags: ["Leadership", "Community Building", "Student Organizations", "Mentorship"]
     },
     {
       id: 3,
-      title: "Building Apps That Matter: Technology for Social Good",
-      excerpt: "Why I believe every developer should consider the social impact of their work and how to integrate meaningful purpose into your projects.",
-      date: "February 12, 2024",
-      readTime: "6 min read",
+      title: "Technology for Social Good: Making a Real Impact",
+      excerpt: "Why every developer should consider the social impact of their work and how to integrate meaningful purpose into your projects and career journey.",
+      date: "February 10, 2024",
+      readTime: "7 min read",
       category: "Social Impact",
       image: "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Social Impact", "Tech for Good", "Community Service", "Purpose"]
+      tags: ["Social Impact", "Tech for Good", "Community Service", "Purpose-Driven Development"]
     },
     {
       id: 4,
-      title: "From Idea to App Store: A Student Developer's Journey",
-      excerpt: "The complete story of developing World of Games, from initial concept to App Store launch, including the mistakes I made and lessons learned.",
-      date: "January 28, 2024",
+      title: "From Idea to Production: Modern Web Development Workflow",
+      excerpt: "The complete journey of developing and deploying modern web applications, including project planning, technology choices, and deployment strategies.",
+      date: "January 25, 2024",
       readTime: "8 min read",
       category: "Development",
       image: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["App Development", "iOS", "Student Journey", "App Store"]
+      tags: ["Web Development", "React", "Project Management", "Deployment"]
     },
     {
       id: 5,
-      title: "The Art of Balancing School and Side Projects",
-      excerpt: "How I manage academics, personal projects, club leadership, and social impact initiatives while maintaining sanity and passion for learning.",
-      date: "January 15, 2024",
+      title: "Balancing Studies, Projects, and Community Impact",
+      excerpt: "How I manage academic responsibilities, personal projects, community leadership, and social impact initiatives while maintaining passion for learning and growth.",
+      date: "January 12, 2024",
       readTime: "5 min read",
       category: "Personal",
       image: "https://images.pexels.com/photos/1181403/pexels-photo-1181403.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Time Management", "Student Life", "Productivity", "Balance"]
+      tags: ["Time Management", "Student Life", "Productivity", "Work-Life Balance"]
     },
     {
       id: 6,
-      title: "Why Every Young Developer Should Try Teaching",
-      excerpt: "How teaching coding workshops transformed my understanding of technology and improved my own skills while helping others learn.",
-      date: "December 20, 2023",
+      title: "The Power of Teaching: Why Every Developer Should Mentor",
+      excerpt: "How teaching coding workshops and mentoring other students transformed my understanding of technology and improved my own skills while helping others learn.",
+      date: "December 18, 2023",
       readTime: "4 min read",
       category: "Teaching",
       image: "https://images.pexels.com/photos/1181402/pexels-photo-1181402.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tags: ["Teaching", "Workshops", "Knowledge Sharing", "Growth"]
+      tags: ["Teaching", "Mentorship", "Knowledge Sharing", "Personal Growth"]
     }
   ];
 
@@ -85,10 +85,10 @@ const Blog: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl sm:text-5xl font-bold text-primary-800 mb-6">
-            Thoughts & <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Reflections</span>
+            Thoughts & <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Insights</span>
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            Sharing my journey, learnings, and insights on technology, leadership, and creating positive impact as a young developer.
+            Sharing my journey, learnings, and insights on technology, leadership, and creating positive impact through thoughtful development and community engagement.
           </p>
         </motion.div>
 
@@ -238,7 +238,7 @@ const Blog: React.FC = () => {
         >
           <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
           <p className="text-purple-100 mb-6 max-w-2xl mx-auto">
-            Subscribe to get notified about new blog posts, project updates, and insights on technology and social impact.
+            Subscribe to get notified about new blog posts, project updates, and insights on technology, leadership, and social impact.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
             <input

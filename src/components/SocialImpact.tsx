@@ -6,72 +6,72 @@ const SocialImpact: React.FC = () => {
   const initiatives = [
     {
       id: 1,
-      name: "Books for All",
-      description: "A community initiative providing free access to educational resources and books for underserved students in our local area.",
-      impact: "500+ students reached",
+      name: "Digital Literacy for All",
+      description: "A community initiative providing free technology education and digital skills training for underserved communities, focusing on bridging the digital divide.",
+      impact: "300+ people trained",
       metrics: {
-        books: "1,200+ books distributed",
-        students: "500+ students served",
-        schools: "8 partner schools",
-        volunteers: "25+ active volunteers"
+        participants: "300+ people trained",
+        sessions: "50+ training sessions",
+        volunteers: "20+ volunteer instructors",
+        locations: "5 community centers"
       },
       image: "https://images.pexels.com/photos/1181403/pexels-photo-1181403.jpeg?auto=compress&cs=tinysrgb&w=800",
       status: "Active",
       founded: "2023",
-      role: "Co-founder & Tech Lead"
+      role: "Co-founder & Program Director"
     },
     {
       id: 2,
-      name: "Digital Literacy Program",
-      description: "Teaching basic computer skills and digital citizenship to seniors and low-income families in our community.",
-      impact: "150+ people trained",
+      name: "Code for Good Initiative",
+      description: "Developing free websites and digital solutions for local non-profit organizations to help them better serve their communities and expand their reach.",
+      impact: "12 organizations helped",
       metrics: {
-        participants: "150+ people trained",
-        sessions: "40+ training sessions",
-        volunteers: "15+ volunteer instructors",
-        locations: "3 community centers"
+        websites: "12 websites delivered",
+        nonprofits: "12 organizations served",
+        volunteers: "15+ developer volunteers",
+        savings: "$25,000+ in development costs saved"
       },
       image: "https://images.pexels.com/photos/1181402/pexels-photo-1181402.jpeg?auto=compress&cs=tinysrgb&w=800",
       status: "Active",
       founded: "2023",
-      role: "Program Coordinator"
+      role: "Technical Lead"
     },
     {
       id: 3,
-      name: "Cultural Bridge App",
-      description: "Developing a mobile app that connects immigrant families with local resources and cultural integration support.",
-      impact: "In development",
+      name: "Youth Tech Mentorship",
+      description: "A mentorship program connecting experienced developers with young aspiring programmers, providing guidance, resources, and career development support.",
+      impact: "50+ mentees supported",
       metrics: {
-        families: "Target: 200+ families",
-        partners: "5 community organizations",
-        languages: "Support for 6 languages",
-        features: "15+ key features planned"
+        mentees: "50+ young developers",
+        mentors: "25+ industry professionals",
+        sessions: "200+ mentoring sessions",
+        placements: "15+ internship placements"
       },
       image: "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=800",
-      status: "In Development",
+      status: "Active",
       founded: "2024",
-      role: "Lead Developer"
+      role: "Program Coordinator"
     }
   ];
 
   const recognitions = [
     {
-      title: "Young Changemaker Award",
-      organization: "Community Foundation",
+      title: "Community Impact Award",
+      organization: "Local Tech Foundation",
       year: "2024",
-      description: "Recognized for outstanding community service and leadership"
+      description: "Recognized for outstanding community service and technology education"
     },
     {
-      title: "Tech for Good Champion",
-      organization: "Regional Tech Council",
+      title: "Young Leader in Tech",
+      organization: "Regional Innovation Council",
       year: "2024",
-      description: "Honored for using technology to address social challenges"
+      description: "Honored for leadership in promoting digital literacy and inclusion"
     },
     {
-      title: "Student Service Award",
-      organization: "High School District",
+      title: "Student Volunteer Excellence",
+      organization: "Community Service Board",
       year: "2023",
-      description: "Awarded for exceptional volunteer service and impact"
+      description: "Awarded for exceptional volunteer service and community impact"
     }
   ];
 
@@ -88,7 +88,7 @@ const SocialImpact: React.FC = () => {
             Social <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Impact</span>
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            Using technology and leadership to create meaningful change in our community. Every project is an opportunity to make a positive difference.
+            Using technology and leadership to create meaningful change in our community. Every project is an opportunity to make a positive difference and bridge digital divides.
           </p>
         </motion.div>
 
@@ -103,19 +103,19 @@ const SocialImpact: React.FC = () => {
             <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <Users className="w-8 h-8 text-white" />
             </div>
-            <div className="text-3xl font-bold text-primary-800">650+</div>
+            <div className="text-3xl font-bold text-primary-800">350+</div>
             <div className="text-sm text-primary-600">People Impacted</div>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Book className="w-8 h-8 text-white" />
+              <Globe className="w-8 h-8 text-white" />
             </div>
-            <div className="text-3xl font-bold text-primary-800">1,200+</div>
-            <div className="text-sm text-primary-600">Books Distributed</div>
+            <div className="text-3xl font-bold text-primary-800">12</div>
+            <div className="text-sm text-primary-600">Organizations Served</div>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Globe className="w-8 h-8 text-white" />
+              <Book className="w-8 h-8 text-white" />
             </div>
             <div className="text-3xl font-bold text-primary-800">3</div>
             <div className="text-sm text-primary-600">Active Initiatives</div>
@@ -124,7 +124,7 @@ const SocialImpact: React.FC = () => {
             <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-accent-500 rounded-full flex items-center justify-center mx-auto mb-4">
               <Heart className="w-8 h-8 text-white" />
             </div>
-            <div className="text-3xl font-bold text-primary-800">40+</div>
+            <div className="text-3xl font-bold text-primary-800">60+</div>
             <div className="text-sm text-primary-600">Volunteers Engaged</div>
           </div>
         </motion.div>

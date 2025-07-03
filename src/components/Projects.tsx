@@ -6,26 +6,26 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: "World of Games: Cultural Clash",
-      description: "A SwiftUI-based mobile app celebrating traditional games from around the world, connecting cultures through play and learning.",
+      title: "CulturalConnect",
+      description: "A React-based platform that connects people from different cultural backgrounds through shared experiences, language exchange, and cultural learning opportunities.",
       image: "https://images.pexels.com/photos/163064/play-stone-network-networked-163064.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["SwiftUI", "iOS", "Cultural Research", "Game Design"],
-      category: "Mobile App",
-      impact: "Connecting cultures through traditional games",
+      tech: ["React", "Node.js", "MongoDB", "Cultural APIs"],
+      category: "Web App",
+      impact: "Bridging cultural divides through technology",
       links: {
-        appStore: "#",
+        live: "#",
         github: "#",
         demo: "#"
       }
     },
     {
       id: 2,
-      title: "Community Connect",
-      description: "A social platform built with React and Firebase that connects local communities and facilitates neighborhood collaboration.",
+      title: "EduTracker Pro",
+      description: "A comprehensive educational management system built with modern web technologies to help students track their academic progress and connect with mentors.",
       image: "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["React", "Firebase", "Tailwind CSS", "Community Design"],
+      tech: ["React", "TypeScript", "Firebase", "Tailwind CSS"],
       category: "Web App",
-      impact: "Strengthening local communities",
+      impact: "Empowering students through better organization",
       links: {
         live: "#",
         github: "#"
@@ -33,12 +33,12 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: "EcoTracker",
-      description: "An environmental impact tracking app that helps users monitor their carbon footprint and suggest eco-friendly alternatives.",
+      title: "GreenImpact",
+      description: "An environmental awareness mobile app that tracks carbon footprint, suggests eco-friendly alternatives, and connects users with local sustainability initiatives.",
       image: "https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["SwiftUI", "Core Data", "Environmental APIs", "Data Visualization"],
+      tech: ["React Native", "Environmental APIs", "Data Visualization", "Geolocation"],
       category: "Mobile App",
-      impact: "Promoting environmental awareness",
+      impact: "Promoting environmental consciousness",
       links: {
         appStore: "#",
         github: "#"
@@ -46,15 +46,14 @@ const Projects: React.FC = () => {
     },
     {
       id: 4,
-      title: "StudyBuddy",
-      description: "A collaborative learning platform that connects students and facilitates group study sessions and knowledge sharing.",
+      title: "CodeMentor Hub",
+      description: "A collaborative platform that connects aspiring developers with experienced mentors, featuring code review tools, project collaboration, and learning resources.",
       image: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800",
-      tech: ["React Native", "Node.js", "MongoDB", "Real-time Chat"],
-      category: "Mobile App",
-      impact: "Enhancing collaborative learning",
+      tech: ["React", "WebRTC", "Socket.io", "Code Editor Integration"],
+      category: "Web Platform",
+      impact: "Fostering developer community growth",
       links: {
-        appStore: "#",
-        playStore: "#",
+        live: "#",
         github: "#"
       }
     }
@@ -73,7 +72,7 @@ const Projects: React.FC = () => {
             Featured <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Projects</span>
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            Discover applications that bridge cultures, strengthen communities, and create positive social impact through thoughtful design and innovative technology.
+            Innovative applications that solve real-world problems, connect communities, and create positive social impact through thoughtful design and cutting-edge technology.
           </p>
         </motion.div>
 
@@ -100,7 +99,7 @@ const Projects: React.FC = () => {
                 </div>
                 <div className="absolute top-4 right-4">
                   <div className="bg-white/90 backdrop-blur-sm p-2 rounded-full">
-                    {project.category === 'Mobile App' ? (
+                    {project.category.includes('Mobile') ? (
                       <Smartphone className="w-4 h-4 text-purple-600" />
                     ) : (
                       <Globe className="w-4 h-4 text-purple-600" />

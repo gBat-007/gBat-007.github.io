@@ -47,9 +47,9 @@ const Header: React.FC<HeaderProps> = ({ activeSection, onSectionChange }) => {
             className="flex items-center space-x-2"
           >
             <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-accent-500 rounded-lg flex items-center justify-center">
-              <Smartphone className="w-5 h-5 text-white" />
+              <span className="text-white font-bold text-sm">GB</span>
             </div>
-            <span className="text-xl font-bold text-primary-800">Portfolio</span>
+            <span className="text-xl font-bold text-primary-800">Gautam Bansal</span>
           </motion.div>
 
           {/* Desktop Navigation */}

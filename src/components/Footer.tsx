@@ -18,10 +18,10 @@ const Footer: React.FC = () => {
   ];
 
   const projects = [
-    { name: 'World of Games', href: '#' },
-    { name: 'Community Connect', href: '#' },
-    { name: 'EcoTracker', href: '#' },
-    { name: 'StudyBuddy', href: '#' }
+    { name: 'CulturalConnect', href: '#' },
+    { name: 'EduTracker Pro', href: '#' },
+    { name: 'GreenImpact', href: '#' },
+    { name: 'CodeMentor Hub', href: '#' }
   ];
 
   return (
@@ -38,12 +38,12 @@ const Footer: React.FC = () => {
             >
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-gradient-to-br from-purple-500 to-accent-500 rounded-lg flex items-center justify-center">
-                  <Smartphone className="w-5 h-5 text-white" />
+                  <span className="text-white font-bold text-sm">GB</span>
                 </div>
-                <span className="text-xl font-bold">Alex Thompson</span>
+                <span className="text-xl font-bold">Gautam Bansal</span>
               </div>
               <p className="text-primary-300 leading-relaxed">
-                16-year-old app developer and creative technologist passionate about creating culturally rich and socially impactful applications.
+                Passionate app developer and creative technologist dedicated to building innovative solutions that bridge cultures and create meaningful impact through technology.
               </p>
             </motion.div>
             <motion.div
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
               className="flex items-center space-x-2 text-primary-300"
             >
               <MapPin className="w-4 h-4" />
-              <span>San Francisco Bay Area</span>
+              <span>Based in India</span>
             </motion.div>
           </div>
 
@@ -162,7 +162,7 @@ const Footer: React.FC = () => {
         >
           <div className="flex flex-col md:flex-row items-center justify-between">
             <p className="text-primary-300 text-sm mb-4 md:mb-0">
-              © 2024 Alex Thompson. All rights reserved.
+              © 2024 Gautam Bansal. All rights reserved.
             </p>
             <div className="flex items-center space-x-1 text-primary-300 text-sm">
               <span>Made with</span>

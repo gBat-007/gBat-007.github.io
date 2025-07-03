@@ -6,65 +6,65 @@ const Clubs: React.FC = () => {
   const clubs = [
     {
       id: 1,
-      name: "TriDev",
+      name: "TechInnovators Club",
       role: "Founder & President",
-      description: "A student-led technology club focused on Swift, Flutter, and VS Code development. We organize workshops, hackathons, and collaborative projects.",
-      members: "25+ active members",
+      description: "A student-led technology club focused on modern web development, mobile apps, and emerging technologies. We organize workshops, hackathons, and collaborative projects.",
+      members: "30+ active members",
       founded: "2023",
       image: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Swift", "Flutter", "VS Code", "Git"],
+      technologies: ["React", "Node.js", "React Native", "Python"],
       activities: [
         "Weekly coding workshops",
         "Monthly hackathons",
-        "Collaborative open-source projects",
-        "Mentorship programs"
+        "Open-source contributions",
+        "Peer mentorship programs"
       ],
       achievements: [
-        "Organized 12 successful workshops",
-        "Launched 3 collaborative apps",
-        "Mentored 15+ new developers"
+        "Organized 15 successful workshops",
+        "Launched 5 collaborative projects",
+        "Mentored 20+ new developers"
       ]
     },
     {
       id: 2,
-      name: "Young Innovators Society",
+      name: "Digital Creators Society",
       role: "Vice President",
-      description: "A cross-disciplinary club that brings together students interested in technology, design, and entrepreneurship to solve real-world problems.",
-      members: "40+ members",
+      description: "A multidisciplinary club that brings together students interested in technology, design, and digital innovation to create impactful solutions for real-world problems.",
+      members: "45+ members",
       founded: "2022",
       image: "https://images.pexels.com/photos/1181397/pexels-photo-1181397.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Design Thinking", "Prototyping", "Research", "Innovation"],
+      technologies: ["UI/UX Design", "Web Development", "Digital Marketing", "Content Creation"],
       activities: [
-        "Innovation challenges",
         "Design thinking workshops",
-        "Startup pitch competitions",
-        "Industry mentor sessions"
+        "Digital product development",
+        "Creative competitions",
+        "Industry networking events"
       ],
       achievements: [
-        "Won regional innovation competition",
-        "Secured $5,000 in funding for student projects",
-        "Partnered with 3 local businesses"
+        "Won regional design competition",
+        "Secured $3,000 in project funding",
+        "Partnered with 4 local startups"
       ]
     },
     {
       id: 3,
-      name: "Code for Good",
+      name: "Code for Community",
       role: "Technical Lead",
-      description: "A service-oriented programming club that develops technology solutions for non-profit organizations and community initiatives.",
-      members: "30+ volunteers",
+      description: "A service-oriented programming club that develops technology solutions for non-profit organizations and community initiatives, focusing on social impact through code.",
+      members: "25+ volunteers",
       founded: "2023",
       image: "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "Node.js", "Mobile Development", "Database Design"],
+      technologies: ["React", "Express.js", "MongoDB", "Mobile Development"],
       activities: [
         "Non-profit website development",
         "Community app projects",
         "Digital literacy training",
-        "Pro bono consulting"
+        "Pro bono tech consulting"
       ],
       achievements: [
-        "Delivered 8 projects to local nonprofits",
-        "Trained 50+ community members",
-        "Saved organizations $20,000+ in development costs"
+        "Delivered 6 projects to local nonprofits",
+        "Trained 40+ community members",
+        "Saved organizations $15,000+ in development costs"
       ]
     }
   ];
@@ -82,7 +82,7 @@ const Clubs: React.FC = () => {
             Student <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Leadership</span>
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            Leading and participating in student organizations that foster collaboration, innovation, and positive community impact through technology education.
+            Leading and participating in student organizations that foster collaboration, innovation, and positive community impact through technology education and mentorship.
           </p>
         </motion.div>
 

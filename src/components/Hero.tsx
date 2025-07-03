@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
           >
             <div className="w-32 h-32 mx-auto bg-gradient-to-br from-purple-500 to-accent-500 rounded-full flex items-center justify-center mb-6 shadow-2xl">
               <div className="w-28 h-28 bg-white rounded-full flex items-center justify-center">
-                <span className="text-3xl font-bold text-purple-600">AT</span>
+                <span className="text-3xl font-bold text-purple-600">GB</span>
               </div>
             </div>
           </motion.div>
@@ -33,7 +33,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary-800 mb-6"
           >
-            Hi, I'm <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Alex</span>
+            Hi, I'm <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Gautam</span>
           </motion.h1>
 
           <motion.p
@@ -42,7 +42,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl text-primary-600 mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-            A 16-year-old <span className="font-semibold text-purple-600">app developer</span> and <span className="font-semibold text-accent-600">creative technologist</span> passionate about creating culturally rich and socially impactful applications
+            A passionate <span className="font-semibold text-purple-600">app developer</span> and <span className="font-semibold text-accent-600">creative technologist</span> dedicated to building innovative solutions that bridge cultures and create meaningful impact
           </motion.p>
 
           <motion.div

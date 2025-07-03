@@ -41,7 +41,7 @@ function App() {
             className="w-16 h-16 bg-gradient-to-br from-purple-500 to-accent-500 rounded-full flex items-center justify-center mx-auto mb-4"
           >
             <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center">
-              <span className="text-lg font-bold text-purple-600">AT</span>
+              <span className="text-lg font-bold text-purple-600">GB</span>
             </div>
           </motion.div>
           <motion.div

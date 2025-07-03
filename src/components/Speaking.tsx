@@ -6,40 +6,40 @@ const Speaking: React.FC = () => {
   const talks = [
     {
       id: 1,
-      title: "Building Culturally Inclusive Apps",
-      event: "Teen Tech Conference 2024",
-      date: "March 15, 2024",
+      title: "Building Inclusive Web Applications",
+      event: "Student Tech Conference 2024",
+      date: "March 20, 2024",
       location: "Virtual Event",
-      audience: "200+ student developers",
+      audience: "250+ student developers",
       duration: "45 minutes",
-      description: "Exploring how to design and develop applications that celebrate cultural diversity and create meaningful connections across communities.",
-      topics: ["Cultural Research", "Inclusive Design", "SwiftUI Development", "Community Building"],
+      description: "Exploring how to design and develop web applications that are accessible, inclusive, and create meaningful connections across diverse user communities.",
+      topics: ["Web Accessibility", "Inclusive Design", "React Development", "User Experience"],
       image: "https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=800",
       type: "Keynote"
     },
     {
       id: 2,
-      title: "From Idea to App Store: A Teen's Journey",
+      title: "From Concept to Code: A Developer's Journey",
       event: "Local Developer Meetup",
-      date: "February 8, 2024",
-      location: "Community Center",
-      audience: "50+ local developers",
+      date: "February 15, 2024",
+      location: "Tech Hub Downtown",
+      audience: "60+ local developers",
       duration: "30 minutes",
-      description: "Sharing the complete journey of developing and launching World of Games, including challenges, learnings, and the impact of cultural research.",
-      topics: ["App Development", "iOS Publishing", "Student Entrepreneurship", "Cultural Gaming"],
+      description: "Sharing the complete journey of developing modern web applications, including project planning, technology choices, and lessons learned from real-world implementations.",
+      topics: ["Project Planning", "Technology Stack", "Best Practices", "Career Development"],
       image: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800",
       type: "Workshop"
     },
     {
       id: 3,
-      title: "Leading Tech Clubs in High School",
+      title: "Leading Tech Communities in School",
       event: "Student Leadership Summit",
-      date: "January 20, 2024",
-      location: "Regional High School",
-      audience: "100+ student leaders",
+      date: "January 25, 2024",
+      location: "Regional Conference Center",
+      audience: "120+ student leaders",
       duration: "25 minutes",
-      description: "Practical strategies for starting and managing technology clubs, building engaged communities, and creating lasting impact in schools.",
-      topics: ["Leadership", "Community Building", "Club Management", "Peer Mentoring"],
+      description: "Practical strategies for starting and managing technology clubs, building engaged communities, and creating lasting impact through peer-to-peer learning and mentorship.",
+      topics: ["Leadership", "Community Building", "Event Organization", "Mentorship"],
       image: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=800",
       type: "Panel"
     }
@@ -47,22 +47,22 @@ const Speaking: React.FC = () => {
 
   const workshops = [
     {
-      title: "SwiftUI Fundamentals for Beginners",
+      title: "React Fundamentals for Beginners",
       frequency: "Monthly",
-      participants: "15-20 students",
-      description: "Hands-on introduction to iOS development"
+      participants: "20-25 students",
+      description: "Hands-on introduction to modern web development"
     },
     {
-      title: "Cultural Research in App Design",
+      title: "Building Responsive Web Applications",
       frequency: "Quarterly",
-      participants: "25-30 students",
-      description: "Integrating cultural sensitivity into tech projects"
+      participants: "30-35 students",
+      description: "Creating mobile-first, accessible web experiences"
     },
     {
-      title: "Building Your First App",
+      title: "Full-Stack Development Bootcamp",
       frequency: "Bi-monthly",
-      participants: "10-15 students",
-      description: "Complete app development from concept to launch"
+      participants: "15-20 students",
+      description: "Complete web application development from frontend to backend"
     }
   ];
 
@@ -79,7 +79,7 @@ const Speaking: React.FC = () => {
             Speaking & <span className="bg-gradient-to-r from-purple-600 to-accent-600 bg-clip-text text-transparent">Workshops</span>
           </h2>
           <p className="text-xl text-primary-600 max-w-3xl mx-auto">
-            Sharing knowledge and inspiring the next generation of developers through talks, workshops, and educational initiatives.
+            Sharing knowledge and inspiring the next generation of developers through talks, workshops, and educational initiatives focused on modern web development and community building.
           </p>
         </motion.div>
 
@@ -208,7 +208,7 @@ const Speaking: React.FC = () => {
             Interested in Having Me Speak at Your Event?
           </h3>
           <p className="text-primary-600 mb-8 max-w-2xl mx-auto">
-            I love sharing my experiences and learnings with fellow students and developers. Let's connect and explore how we can inspire the next generation of tech leaders together.
+            I love sharing my experiences and learnings with fellow students and developers. Let's connect and explore how we can inspire the next generation of tech innovators together.
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}
